@@ -3,10 +3,10 @@
 This lunch checker is based on the Coursera course Single page web app development (John Hopkins university)
 
 
-*App purpose*
+**App purpose**
 The app parses a string input and changes the output depending on the number of items separated by commas
 
-*Demonstrates:*
+**Demonstrates:**
 - Angular binding to input box via ng-model
 - Angular binding to button via ng-click which calls a function on $scope < parseList()
 - Angular binding to output via {{ xxxx }}
