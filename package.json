@@ -1,0 +1,9 @@
+{
+  "name": "angularjs-p4pijb",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@uirouter/angularjs": "1.0.15",
+    "angular": "1.6.9"
+  }
+}
