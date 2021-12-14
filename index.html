@@ -1,11 +1,28 @@
 <!DOCTYPE html>
-<html ng-app="MsgApp">
+<html ng-app="LunchApp">
   <head>
     <script src="angular.js"></script>
     <script src="app.js"></script>
-    <title>Test page</title>
+    <title>Lunch Checker</title>
   </head>
   <body>
-    <div ng-controller="MsgController">Message is: {{name}}</div>
+    <div ng-controller="AppController">
+      <h1>Lunch Checker</h1>
+      Enter your lunch menu as items separated by commas:  
+      <input type="text" ng-model="inputList">
+      <button ng-click="parseList()">Check if too much...</button>
+      
+      <p>
+        <h2>Output message:</h2>
+          You have entered: {{numItems}} items.
+        <br>
+          {{lunchMessage}}
+
+      <p>
+        <h2>Raw Inputs:</h2>
+        {{inputList}}
+      </p>
+    
+    </div>
   </body>
 </html>
