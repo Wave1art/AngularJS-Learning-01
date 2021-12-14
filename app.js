@@ -1,6 +1,3 @@
-import angular from 'angular';
-import '@uirouter/angularjs';
-
 (function () {
   'use strict';
 
